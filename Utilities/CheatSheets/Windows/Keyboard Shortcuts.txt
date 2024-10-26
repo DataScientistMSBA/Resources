@@ -1,0 +1,10 @@
+Alt+Tab: Switch between programs
+
+Windows + D: Hide all programs
+Windows + E: Open file explorer
+Windows + V: Clipboard
+Windows + X: Contextual start menu
+Windows + Z: FancyZones
+Windows + .: Emoji Keyboard
+
+Windows + Shift + S: Snippet Screenshot
