@@ -1,73 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <data>
   <row>
-    <Column1>34</Column1>
-    <Column2>47</Column2>
-    <Column3>30</Column3>
-    <Column4>10</Column4>
-    <Column5>94</Column5>
+    <Name>Alice</Name>
+    <Age>24</Age>
+    <City>New York</City>
   </row>
   <row>
-    <Column1>94</Column1>
-    <Column2>55</Column2>
-    <Column3>55</Column3>
-    <Column4>55</Column4>
-    <Column5>13</Column5>
+    <Name>Bob</Name>
+    <Age>30</Age>
+    <City>Los Angeles</City>
   </row>
   <row>
-    <Column1>23</Column1>
-    <Column2>6</Column2>
-    <Column3>14</Column3>
-    <Column4>85</Column4>
-    <Column5>3</Column5>
-  </row>
-  <row>
-    <Column1>87</Column1>
-    <Column2>97</Column2>
-    <Column3>96</Column3>
-    <Column4>73</Column4>
-    <Column5>35</Column5>
-  </row>
-  <row>
-    <Column1>4</Column1>
-    <Column2>34</Column2>
-    <Column3>58</Column3>
-    <Column4>92</Column4>
-    <Column5>57</Column5>
-  </row>
-  <row>
-    <Column1>82</Column1>
-    <Column2>27</Column2>
-    <Column3>28</Column3>
-    <Column4>55</Column4>
-    <Column5>39</Column5>
-  </row>
-  <row>
-    <Column1>50</Column1>
-    <Column2>91</Column2>
-    <Column3>75</Column3>
-    <Column4>45</Column4>
-    <Column5>55</Column5>
-  </row>
-  <row>
-    <Column1>21</Column1>
-    <Column2>61</Column2>
-    <Column3>85</Column3>
-    <Column4>74</Column4>
-    <Column5>65</Column5>
-  </row>
-  <row>
-    <Column1>12</Column1>
-    <Column2>74</Column2>
-    <Column3>47</Column3>
-    <Column4>45</Column4>
-    <Column5>67</Column5>
-  </row>
-  <row>
-    <Column1>8</Column1>
-    <Column2>58</Column2>
-    <Column3>26</Column3>
-    <Column4>14</Column4>
-    <Column5>74</Column5>
+    <Name>Charlie</Name>
+    <Age>22</Age>
+    <City>Chicago</City>
   </row>
 </data>
