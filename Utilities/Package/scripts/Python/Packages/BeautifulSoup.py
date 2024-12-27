@@ -8,3 +8,8 @@ def ComingSoon():
     print("Coming Soon")
     return
 
+
+
+
+get_ipython().run_line_magic('run', '"../Configuration/PackageLoader.ipynb"')
+

@@ -2,10 +2,6 @@
 
 
 
-import tkinter as tk
-from tkinter import messagebox
-import subprocess
-
 # List of packages with installation names, categories, descriptions, and display names
 packages = [
     ('beautifulsoup4', 'Web Scraping', 'Parses HTML and XML', 'BeautifulSoup'),
