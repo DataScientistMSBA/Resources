@@ -4,7 +4,7 @@
 
 
 
-import pandas as pd
+# import pandas as pd
 
 def WriteDB(data, output_path, sep=',', filetype='CSV'):
     """
@@ -45,37 +45,37 @@ def WriteDB(data, output_path, sep=',', filetype='CSV'):
 
 
 
-# Example DataFrame
-import pandas as pd
+# # Example DataFrame
+# import pandas as pd
 
-# Sample data for the DataFrame
-data = {
-    'Name': ['Alice', 'Bob', 'Charlie'],
-    'Age': [24, 30, 22],
-    'City': ['New York', 'Los Angeles', 'Chicago']
-}
-df = pd.DataFrame(data)
+# # Sample data for the DataFrame
+# data = {
+#     'Name': ['Alice', 'Bob', 'Charlie'],
+#     'Age': [24, 30, 22],
+#     'City': ['New York', 'Los Angeles', 'Chicago']
+# }
+# df = pd.DataFrame(data)
 
 
 # ## CSV
 
 
 
-WriteDB(df, '../../../Datasets/Testing/test_csv.csv', sep=',', filetype='CSV')
+# WriteDB(df, '../../../Datasets/Testing/test_csv.csv', sep=',', filetype='CSV')
 
 
 # ## XLSX
 
 
 
-WriteDB(df, '../../../Datasets/Testing/test_xlsx.xlsx', sep=',', filetype='XLSX')
+# WriteDB(df, '../../../Datasets/Testing/test_xlsx.xlsx', sep=',', filetype='XLSX')
 
 
 # ## PARQUET
 
 
 
-WriteDB(df, '../../../Datasets/Testing/test_parquet.parquet', sep=',', filetype='PARQUET')
+# WriteDB(df, '../../../Datasets/Testing/test_parquet.parquet', sep=',', filetype='PARQUET')
 
 
 # 
@@ -83,12 +83,12 @@ WriteDB(df, '../../../Datasets/Testing/test_parquet.parquet', sep=',', filetype=
 
 
 
-WriteDB(df, '../../../Datasets/Testing/test_json.json', sep=',', filetype='JSON')
+# WriteDB(df, '../../../Datasets/Testing/test_json.json', sep=',', filetype='JSON')
 
 
 # ## XML
 
 
 
-WriteDB(df, '../../../Datasets/Testing/test_xml.xml', sep=',', filetype='XML')
+# WriteDB(df, '../../../Datasets/Testing/test_xml.xml', sep=',', filetype='XML')
 

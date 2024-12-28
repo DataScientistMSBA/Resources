@@ -4,8 +4,8 @@
 
 
 
-import pandas as pd
-import numpy as np
+# import pandas as pd
+# import numpy as np
 
 def ReadDB(intake, sep=','):
     """
@@ -45,33 +45,33 @@ def ReadDB(intake, sep=','):
 
 
 
-ReadDB(intake = r'../../../Datasets/Testing/test_csv.csv', sep=',')
+# ReadDB(intake = r'../../../Datasets/Testing/test_csv.csv', sep=',')
 
 
 # ## XLSX
 
 
 
-ReadDB(intake = r'../../../Datasets/Testing/test_xlsx.xlsx')
+# ReadDB(intake = r'../../../Datasets/Testing/test_xlsx.xlsx')
 
 
 # ## PARQUET
 
 
 
-ReadDB(intake = r'../../../Datasets/Testing/test_parquet.parquet')
+# ReadDB(intake = r'../../../Datasets/Testing/test_parquet.parquet')
 
 
 # ## JSON
 
 
 
-ReadDB(intake = r'../../../Datasets/Testing/test_json.json')
+# ReadDB(intake = r'../../../Datasets/Testing/test_json.json')
 
 
 # ## XML
 
 
 
-ReadDB(intake = r'../../../Datasets/Testing/test_xml.xml')
+# ReadDB(intake = r'../../../Datasets/Testing/test_xml.xml')
 

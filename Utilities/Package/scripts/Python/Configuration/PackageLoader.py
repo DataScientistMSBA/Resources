@@ -35,12 +35,43 @@ import tkinter as tk
 from tkinter import messagebox
 
 
+
+
+
+
+
+
+
+# import os, sys; sys.path.append(os.path.abspath(os.path.join(os.getcwd(), '..', 'Package', 'scripts')))
+# from Access.ReadDB import *
+# from Access.WriteDB import *
+
+
 # # Import Functions from Workbooks
 
 
 
-get_ipython().run_line_magic('run', '"../Configuration/UpdatePackages.ipynb"')
-get_ipython().run_line_magic('run', '"../Configuration/PackageInstaller.ipynb"')
+import os; os.chdir(os.sep.join(os.getcwd().split(os.sep)[:os.getcwd().split(os.sep).index('Package') + 1]))
+
+try:
+    get_ipython().run_line_magic('run', '"notebooks/Python/Configuration/UpdatePackages.ipynb"')
+except:
+    get_ipython().run_line_magic('run', '"scripts/Python/Configuration/UpdatePackages.py"')
+
+try:
+    get_ipython().run_line_magic('run', '"notebooks/Python/Configuration/PackageInstaller.ipynb"')
+except:
+    get_ipython().run_line_magic('run', '"scripts/Python/Configuration/PackageInstaller.py"')
+
+try:
+    get_ipython().run_line_magic('run', '"notebooks/Access/ReadDB.ipynb"')
+except:
+    get_ipython().run_line_magic('run', '"scripts/Access/ReadDB.py"')
+
+try:
+    get_ipython().run_line_magic('run', '"notebooks/Access/WriteDB.ipynb"')
+except:
+    get_ipython().run_line_magic('run', '"scripts/Access/WriteDB.py"')
 
 
 
