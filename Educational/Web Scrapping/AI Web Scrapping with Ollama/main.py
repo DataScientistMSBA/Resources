@@ -1,14 +1,7 @@
 # Source: https://youtu.be/Oo8-nEuDBkk?si=OHouyed4UnAzQEQP
 
 # Dependencies
-# pip install streamlit
-# pip install langchain
-# pip install langchain_ollama
-# pip install selenium
-# pip install beautifulsoup4
-# pip install lxml
-# pip install html5lib
-# pip install python-dotenv
+# pip install streamlit langchain langchain_ollama selenium beautifulsoup4 lxml html5lib python-dotenv
 
 import streamlit as st
 from scrape import (

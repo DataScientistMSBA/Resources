@@ -1,11 +1,5 @@
 # coding: utf-8
 
-
-
-# %run "../Configuration/PackageLoader.ipynb"
-# %run "./PackageLoader.ipynb"
-
-
 # ## Standard Imports
 
 
@@ -38,13 +32,6 @@ from tkinter import messagebox
 
 
 
-
-
-
-
-# import os, sys; sys.path.append(os.path.abspath(os.path.join(os.getcwd(), '..', 'Package', 'scripts')))
-# from Access.ReadDB import *
-# from Access.WriteDB import *
 
 
 # # Import Functions from Workbooks

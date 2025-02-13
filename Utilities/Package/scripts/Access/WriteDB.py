@@ -4,8 +4,6 @@
 
 
 
-# import pandas as pd
-
 def WriteDB(data, output_path, sep=',', filetype='CSV'):
     """
     Writes a DataFrame to a specified file format.
@@ -46,8 +44,6 @@ def WriteDB(data, output_path, sep=',', filetype='CSV'):
 
 
 # # Example DataFrame
-# import pandas as pd
-
 # # Sample data for the DataFrame
 # data = {
 #     'Name': ['Alice', 'Bob', 'Charlie'],
